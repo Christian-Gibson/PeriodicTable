@@ -1,0 +1,3 @@
+# PeriodicTable
+
+A simple desktop application for displaying information about each element on the periodic table. The XAML code is for displaying the graphics/buttons and the C# code is the code-behind that contains the logic needed to display the information in the textbox.
