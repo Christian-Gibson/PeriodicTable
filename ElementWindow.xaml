@@ -1,6 +1,6 @@
 ﻿<!--Christian Gibson 2022-->
-    
-    <Window x:Class="PeriodicTableV1.ElementWindow"
+
+<Window x:Class="PeriodicTableV1.ElementWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -9,10 +9,19 @@
         mc:Ignorable="d"
         Title="Periodic Table of the Elements" Height="400" Width="500"  ResizeMode="NoResize">
 
-    
+
     <Canvas Background="SlateGray" >
 
-      
+        <Menu Height="13" Width="25" BorderBrush="Black">
+           
+            <MenuItem Header="Menu" FontSize="7" Height="15" Width="26" Padding="1" AllowDrop="True" >
+                <MenuItem Header="About" Name="About" Click="About_Click"></MenuItem>
+                <MenuItem Header="Quit" Name="Quit" Click="Quit_Click"></MenuItem>
+
+            </MenuItem>
+
+        </Menu>
+
 
         <Button x:Name="btn_Hydrogen" Content="H" Width="21" Height="20" Margin="30,12,30,30" Click="btn_Hydrogen_Click" Foreground="Red" Background="MediumSeaGreen"/>
         <Button x:Name="btn_Lithium" Content="Li" Width="21" Height="20" Margin="30,33,30,30" Click="btn_Lithium_Click" Background="IndianRed"/>
@@ -110,7 +119,7 @@
         <Button x:Name="btn_Thorium" Content="Th" Width="21" Height="20" Margin="132,206,30,30" Click="btn_Thorium_Click" Background="SandyBrown"/>
         <Button x:Name="btn_Praseodymium" Content="Pr" Width="21" Height="20" Margin="154,185,30,30" Click="btn_Praseodymium_Click" Background="Wheat"/>
         <Button x:Name="btn_Protactiniuim" Content="Pa" Width="21" Height="20" Margin="154,206,30,30" Click="btn_Protactiniuim_Click" Background="SandyBrown"/>
-        <Button x:Name="btn_Neodymium" Content="Nd" Width="21" Height="20" Margin="177,185,30,30" Click="btn_Neodymium_Click" Background="Wheat"/>
+        <Button x:Name="btn_Neodymium" Content="Nd" Width="21" Height="20" Margin="177,185,30,30" Click="btn_Neodymium_Click" Background="Wheat" />
         <Button x:Name="btn_Uranium" Content="U" Width="21" Height="20" Margin="177,206,30,30" Click="btn_Uranium_Click" Background="SandyBrown"/>
         <Button x:Name="btn_Promethium" Content="Pm" Width="21" Height="20" Margin="200,185,30,30" Click="btn_Promethium_Click" Background="Wheat"/>
         <Button x:Name="btn_Neptunium" Content="Np" Width="21" Height="20" Margin="200,206,30,30" Click="btn_Neptunium_Click" Background="SandyBrown"/>
@@ -135,9 +144,10 @@
         <Button x:Name="btn_Lutetium" Content="Lu" Width="21" Height="20" Margin="423,185,30,30" Click="btn_Lutetium_Click" Background="Wheat"/>
         <Button x:Name="btn_Lawrencium" Content="Lr" Width="21" Height="20" Margin="423,206,30,30" Click="btn_Lawrencium_Click" Background="SandyBrown"/>
 
-        <TextBox x:Name="textbox1" Margin="79,11,70,70" Width="225" Height="59" VerticalScrollBarVisibility="Visible" IsReadOnly="True">Select an Element to see its information.</TextBox>
+        <TextBox x:Name="textbox1" Margin="79,11,70,70" Width="225" Height="59" VerticalScrollBarVisibility="Visible" IsReadOnly="True">Select an element to see its information.</TextBox>
 
-      
+
+
 
 
 
