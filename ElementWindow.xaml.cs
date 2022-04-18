@@ -759,8 +759,21 @@ namespace PeriodicTableV1
             textbox1.Text = "103. Lawrencium \n Weight: (266)  \n Electronegativity: Unknown\n Melting Point: 1900 K\n Boiling Point: Unknown\n Discovered in 1961";
         }
 
+
         #endregion
 
+        private void About_Click(object sender, RoutedEventArgs e)
+        {
 
+            MessageBox.Show("Programmed and designed by Christian A. Gibson - 2022 \nSources: Wikipedia.org", "About", MessageBoxButton.OK, MessageBoxImage.Question);
+
+        }
+
+        private void Quit_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+
+
+        }
     }
 }
