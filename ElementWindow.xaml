@@ -16,6 +16,7 @@
            
             <MenuItem Header="Menu" FontSize="7" Height="15" Width="26" Padding="1" AllowDrop="True" >
                 <MenuItem Header="About" Name="About" Click="About_Click"></MenuItem>
+                <Separator/>
                 <MenuItem Header="Quit" Name="Quit" Click="Quit_Click"></MenuItem>
 
             </MenuItem>
