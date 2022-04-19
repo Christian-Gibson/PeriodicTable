@@ -765,7 +765,7 @@ namespace PeriodicTableV1
         private void About_Click(object sender, RoutedEventArgs e)
         {
 
-            MessageBox.Show("Programmed and designed by Christian A. Gibson - 2022 \nSources: Wikipedia.org", "About", MessageBoxButton.OK, MessageBoxImage.Question);
+            MessageBox.Show("Programmed and designed by Christian A Gibson\nCopyright 2022, All Rights Reserved. \nSources: Wikipedia.org", "About", MessageBoxButton.OK, MessageBoxImage.Question);
 
         }
 

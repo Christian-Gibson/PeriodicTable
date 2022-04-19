@@ -16,7 +16,7 @@ namespace PeriodicTableV1
         private void Application_Startup(object sender, StartupEventArgs e)
         {
 
-            MessageBox.Show("Welcome To The Periodic Table!\n\nMade by Christian Gibson (2022)", "Periodic Table", MessageBoxButton.OK, MessageBoxImage.Asterisk);
+            MessageBox.Show("Welcome To The Periodic Table!\n\nMade by Christian Gibson\nCopyright 2022, All Rights Reserved.", "Periodic Table", MessageBoxButton.OK, MessageBoxImage.Asterisk);
 
 
         }
