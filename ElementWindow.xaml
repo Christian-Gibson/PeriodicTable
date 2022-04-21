@@ -23,6 +23,40 @@
 
         </Menu>
 
+        <Rectangle Width="10" Height="10" Fill="MediumSeaGreen" Margin="250,270,40,40"/>
+        <TextBlock Text="Reactive Nonmetals" Foreground="Black" Margin="265,269,40,40"/>
+
+        <Rectangle Width="10" Height="10" Fill="IndianRed" Margin="250,285,40,40"/>
+        <TextBlock Text="Alkali Metals" Foreground="Black" Margin="265,284,40,40"/>
+
+        <Rectangle Width="10" Height="10" Fill="OrangeRed" Margin="250,300,40,40"/>
+        <TextBlock Text="Alkali Earth Metals" Foreground="Black" Margin="265,299,40,40"/>
+
+        <Rectangle Width="10" Height="10" Fill="CadetBlue" Margin="250,315,40,40"/>
+        <TextBlock Text="Transition Metals" Foreground="Black" Margin="265,314,40,40"/>
+
+        <Rectangle Width="10" Height="10" Fill="SteelBlue" Margin="250,329,40,40"/>
+        <TextBlock Text="Post-Transition Metals" Foreground="Black" Margin="265,328,40,40"/>
+
+        <Rectangle Width="10" Height="10" Fill="Wheat" Margin="380,270,40,40"/>
+        <TextBlock Text="Lanthanides" Foreground="Black" Margin="395,269,40,40"/>
+
+        <Rectangle Width="10" Height="10" Fill="SandyBrown" Margin="380,285,40,40"/>
+        <TextBlock Text="Actinides" Foreground="Black" Margin="395,285,40,40"/>
+
+        <Rectangle Width="10" Height="10" Fill="LightGoldenrodYellow" Margin="380,300,40,40"/>
+        <TextBlock Text="Metalloids" Foreground="Black" Margin="395,301,40,40"/>
+
+        <Rectangle Width="10" Height="10" Fill="Purple" Margin="380,315,40,40"/>
+        <TextBlock Text="Noble Gases" Foreground="Black" Margin="395,315,40,40"/>
+
+        <Rectangle Width="10" Height="10" Fill="Gray" Margin="380,329,40,40"/>
+        <TextBlock Text="Unknown" Foreground="Black" Margin="395,328,40,40"/>
+
+
+
+
+
 
         <Button x:Name="btn_Hydrogen" Content="H" Width="21" Height="20" Margin="30,12,30,30" Click="btn_Hydrogen_Click" Foreground="Red" Background="MediumSeaGreen"/>
         <Button x:Name="btn_Lithium" Content="Li" Width="21" Height="20" Margin="30,33,30,30" Click="btn_Lithium_Click" Background="IndianRed"/>
@@ -107,12 +141,12 @@
         <Button x:Name="btn_Iodine" Content="I" Width="21" Height="20" Margin="398,102,30,30" Click="btn_Iodine_Click" Background="MediumSeaGreen"/>
         <Button x:Name="btn_Astatine" Content="At" Width="21" Height="20" Margin="398,125,30,30" Click="btn_Astatine_Click" Background="LightGoldenrodYellow"/>
         <Button x:Name="btn_Tennessine" Content="Ts" Width="21" Height="20" Margin="398,148,30,30" Click="btn_Tennessine_Click" Background="Gray" Foreground="LightGray"/>
-        <Button x:Name="btn_Helium" Content="He" Width="21" Height="20" Margin="420,12,30,30"  Click="btn_Helium_Click" Background="Beige" Foreground="Red"/>
-        <Button x:Name="btn_Neon" Content="Ne" Width="21" Height="20" Margin="420,33,30,30" Click="btn_Neon_Click" Background="Beige" Foreground="Red"/>
-        <Button x:Name="btn_Argon" Content="Ar" Width="21" Height="20" Margin="420,55,30,30" Click="btn_Argon_Click" Background="Beige" Foreground="Red"/>
-        <Button x:Name="btn_Krypton" Content="Kr" Width="21" Height="20" Margin="420,78,30,30" Click="btn_Krypton_Click" Background="Beige" Foreground="Red"/>
-        <Button x:Name="btn_Xenon" Content="Xe" Width="21" Height="20" Margin="420,102,30,30" Click="btn_Xenon_Click" Background="Beige" Foreground="Red"/>
-        <Button x:Name="btn_Radon" Content="Rn" Width="21" Height="20" Margin="420,125,30,30" Click="btn_Radon_Click" Background="Beige" Foreground="Red"/>
+        <Button x:Name="btn_Helium" Content="He" Width="21" Height="20" Margin="420,12,30,30"  Click="btn_Helium_Click" Background="Purple" Foreground="Red"/>
+        <Button x:Name="btn_Neon" Content="Ne" Width="21" Height="20" Margin="420,33,30,30" Click="btn_Neon_Click" Background="Purple" Foreground="Red"/>
+        <Button x:Name="btn_Argon" Content="Ar" Width="21" Height="20" Margin="420,55,30,30" Click="btn_Argon_Click" Background="Purple" Foreground="Red"/>
+        <Button x:Name="btn_Krypton" Content="Kr" Width="21" Height="20" Margin="420,78,30,30" Click="btn_Krypton_Click" Background="Purple" Foreground="Red"/>
+        <Button x:Name="btn_Xenon" Content="Xe" Width="21" Height="20" Margin="420,102,30,30" Click="btn_Xenon_Click" Background="Purple" Foreground="Red"/>
+        <Button x:Name="btn_Radon" Content="Rn" Width="21" Height="20" Margin="420,125,30,30" Click="btn_Radon_Click" Background="Purple" Foreground="Red"/>
         <Button x:Name="btn_Oganesson" Content="Og" Width="21" Height="20" Margin="420,148,30,30" Click="btn_Oganesson_Click" Background="Gray" Foreground="LightGray"/>
         <Button x:Name="btn_LanthanumS" Content="La" Width="21" Height="20" Margin="110,185,30,30" Click="btn_LanthanumS_Click" Background="Wheat"/>
         <Button x:Name="btn_ActiniumS" Content="Ac" Width="21" Height="20" Margin="110,206,30,30" Click="btn_ActiniumS_Click" Background="SandyBrown"/>
