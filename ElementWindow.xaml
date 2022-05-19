@@ -182,6 +182,7 @@
         <TextBox x:Name="textbox1" Margin="79,11,70,70" Width="225" Height="59" VerticalScrollBarVisibility="Visible" IsReadOnly="True">Select an element to see its information.</TextBox>
 
 
+        <TextBlock Text="1" Margin="22,15,0,0"/>
 
 
 
