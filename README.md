@@ -7,7 +7,7 @@
 - Sources: Wikipedia.org, RSC.org (Royal Society of Chemistry), docs.microsoft.com (Windows Presentation Foundation documentation).
 
 
-To run this application on your desktop, you will need the .NET Runtime. Download the ZIP file to the right under "Releases", extract the files and run the executable named PeriodicTableV1.
+To run this application on your desktop, you will need the .NET Runtime installed. Download the ZIP file to the right under "Releases", extract the files and run the executable named PeriodicTableV1.
 
 
 
